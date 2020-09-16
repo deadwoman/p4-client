@@ -13,8 +13,8 @@
 }
 
 button {
-  color: #ffffff;
-  background-color: #d4d4d4;
+  color: #000000;
+  background-color: #ffffff;
   border-width: 0px;
   border-radius: 90px;
 }
@@ -39,7 +39,6 @@ body {
   font-family: helvetica;
   font-weight: lighter;
   //  background-color: #d2b48c;
-  text-color: #ebd8bd;
   text-align: center;
   align-items: center;
   margin: 2%;
@@ -52,7 +51,8 @@ div {
 
   > form {
     padding: 10px;
-    background-color: #ebd8bd;
+    //background-color: #ebd8bd;
+    background-color: #d4d4d4;
     border-radius: 10px;
   }
 }
@@ -68,6 +68,12 @@ h2 {
   font-size: 20px;
   letter-spacing: 3px;
   position: sticky;
+}
+
+// h6 styles the title for BUDGET / EXPENSES / BALANCE
+h6 {
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 .authenticated {
@@ -1658,9 +1664,9 @@ h2 {
   //   content: "\f4f2";
   // }
 
-  // .fa-credit-card:before {
-  //   content: "\f09d";
-  // }
+  .fa-credit-card:before {
+    content: "\💳";
+  }
 
   // .fa-crop:before {
   //   content: "\f125";
@@ -1826,9 +1832,9 @@ h2 {
   //   content: "\f395";
   // }
 
-  // .fa-dollar-sign:before {
-  //   content: "\f155";
-  // }
+  .fa-dollar-sign:before {
+    content: "\💲";
+  }
 
   // .fa-dolly:before {
   //   content: "\f472";
@@ -3386,29 +3392,29 @@ h2 {
   //   content: "\f3d0";
   // }
 
-  // .fa-money-bill:before {
-  //   content: "\f0d6";
-  // }
+  .fa-money-bill:before {
+    content: "\f0d6";
+  }
 
-  // .fa-money-bill-alt:before {
-  //   content: "\f3d1";
-  // }
+  .fa-money-bill-alt:before {
+    content: "\💸";
+  }
 
-  // .fa-money-bill-wave:before {
-  //   content: "\f53a";
-  // }
+  .fa-money-bill-wave:before {
+    content: "\f53a";
+  }
 
-  // .fa-money-bill-wave-alt:before {
-  //   content: "\f53b";
-  // }
+  .fa-money-bill-wave-alt:before {
+    content: "\f53b";
+  }
 
-  // .fa-money-check:before {
-  //   content: "\f53c";
-  // }
+  .fa-money-check:before {
+    content: "\f53c";
+  }
 
-  // .fa-money-check-alt:before {
-  //   content: "\f53d";
-  // }
+  .fa-money-check-alt:before {
+    content: "\f53d";
+  }
 
   // .fa-monument:before {
   //   content: "\f5a6";
