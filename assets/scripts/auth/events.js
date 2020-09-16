@@ -21,7 +21,7 @@ const onSignIn = function (event) {
   api
     .signIn(formData)
     .then(ui.signInSuccess)
-    .then(() => onIndexFoods(event, true))
+    //   .then(() => onIndexFoods(event, true))
     .catch(ui.signInFailure);
 };
 
