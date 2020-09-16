@@ -1,6 +1,5 @@
-'use strict'
+"use strict";
 
-const store = {
-}
+const store = {};
 
-module.exports = store
+module.exports = store;
