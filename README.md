@@ -1,4 +1,4 @@
-# Project 4
+# Grocery Budget & Shopping List
 
 A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 
