@@ -2,7 +2,7 @@
 
 let apiUrl;
 const apiUrls = {
-  production: "https://enigmatic-fortress-92738.herokuapp.com/",
+  production: "https://enigmatic-fortress-92738.herokuapp.com",
   development: "http://localhost:4741",
 };
 
