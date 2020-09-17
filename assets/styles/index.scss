@@ -28,7 +28,7 @@ h8 {
 h9 {
   font-size: 20px;
   font-weight: normal;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 h7 {
@@ -122,14 +122,16 @@ h6 {
   }
 
   .budget-form {
-    border: 0.15rem solid var(--mainGreen);
-    padding: 1rem;
-    border-radius: 0.25rem;
+    border-radius: 10px;
+    // border: 0.15rem solid var(--mainGreen);
+    // padding: 1rem;
+    // border-radius: 0.25rem;
   }
   .expense-form {
-    border: 0.15rem solid var(--mainRed);
-    padding: 1rem;
-    border-radius: 0.25rem;
+    border-radius: 10px;
+    // border: 0.15rem solid var(--mainRed);
+    // padding: 1rem;
+    // border-radius: 0.25rem;
   }
   .budget-submit {
     background: transparent;
@@ -156,10 +158,14 @@ h6 {
   }
 
   .budget-input {
-    border: 0.05rem solid var(--mainGreen) !important;
+    border-width: 1px;
+    border-color: #000000;
+    // border: 0.05rem solid var(--mainGreen) !important;
   }
   .expense-input {
-    border: 0.05rem solid var(--mainRed) !important;
+    border-width: 1px;
+    border-color: #000000;
+    // border: 0.05rem solid var(--mainRed) !important;
   }
   .expense-amount,
   .expense-title {
@@ -235,8 +241,9 @@ h6 {
     }
   }
   .list-item {
-    flex: 0 0 33.33%;
+//    flex: 0 0 33.33%;
     text-align: center;
+    text-decoration: underline;
   }
   .expense-item {
     height: 2rem;
@@ -489,16 +496,16 @@ h6 {
     display: none;
   }
 
-  .budget-form {
-    border: 0.15rem solid var(--mainGreen);
-    padding: 1rem;
-    border-radius: 0.25rem;
-  }
-  .expense-form {
-    border: 0.15rem solid var(--mainRed);
-    padding: 1rem;
-    border-radius: 0.25rem;
-  }
+  // .budget-form {
+  //   border: 0.15rem solid var(--mainGreen);
+  //   padding: 1rem;
+  //   border-radius: 0.25rem;
+  // }
+  // .expense-form {
+  //   border: 0.15rem solid var(--mainRed);
+  //   padding: 1rem;
+  //   border-radius: 0.25rem;
+  // }
   .budget-submit {
     background: transparent;
     border: 0.1rem solid var(--mainGreen);
@@ -518,12 +525,12 @@ h6 {
     color: var(--mainDark);
   }
 
-  .budget-input {
-    border: 0.05rem solid var(--mainGreen) !important;
-  }
-  .expense-input {
-    border: 0.05rem solid var(--mainRed) !important;
-  }
+  // .budget-input {
+  //   border: 0.05rem solid var(--mainGreen) !important;
+  // }
+  // .expense-input {
+  //   border: 0.05rem solid var(--mainRed) !important;
+  // }
   .expense-amount,
   .expense-title {
     color: var(--mainRed);
@@ -597,13 +604,13 @@ h6 {
       color: var(--mainBlue);
     }
   }
-  .list-item {
-    flex: 0 0 33.33%;
-    text-align: center;
-  }
-  .expense-item {
-    height: 2rem;
-  }
+  // .list-item {
+  //   flex: 0 0 33.33%;
+  //   text-align: center;
+  // }
+  // .expense-item {
+  //   height: 2rem;
+  // }
 
   /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
  readers do not read off random characters that represent icons */
