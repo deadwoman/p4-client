@@ -16,16 +16,16 @@
     <body>
       <h1> <img src="http://cdn.onlinewebfonts.com/svg/img_443347.png" alt="leaf logo" style="height:32px;"> grocery budget & shopping list </h1>
 
-Grocery store budget app & shopping list :)
+      your personal grocery store budget & shopping list. <br> 🧠<i>shop smarter</i> 🛍
 <br>
       <p id="message"></p>
 
       <div class="unauthenticated" id="unauthenticated">
         <h2>new user</h2>
         <form class="sign-up" id="sign-up">
-          <input name="credentials[email]" placeholder="e-mail" type="text"><br>
-          <input name="credentials[password]" placeholder="password" type="password"><br>
-          <input name="credentials[password_confirmation]" placeholder="confirm password" type="password"><br>
+          e-mail: <input name="credentials[email]" placeholder="e-mail" type="text">
+          password: <input name="credentials[password]" placeholder="password" type="password"><br> <br> confirm password:
+          <input name="credentials[password_confirmation]" placeholder="password" type="password"><br><br>
           <button type="submit">sign up</button>
         </form>
 
@@ -33,8 +33,8 @@ Grocery store budget app & shopping list :)
 
         <h2>returning user</h2>
         <form id="sign-in">
-        <input name="credentials[email]" placeholder="e-mail" type="text"><br>
-        <input name="credentials[password]" placeholder="password" type="password"><br>
+        e-mail: <input name="credentials[email]" placeholder="e-mail" type="text"> password:
+        <input name="credentials[password]" placeholder="password" type="password"><br><br>
         <button type="submit">sign in</button>
       </form>
       </div>
@@ -48,23 +48,19 @@ Grocery store budget app & shopping list :)
         <!-- ACTUAL FORMS TO FILL OUT -->
 
       <!--  <h4>BUYING LIST</h4>  --> <div class="column">
-          <form class="create-food" id="create-food"> 
-       <form id="create-food"> 
+          <form class="create-food" id="create-food">
+       <form id="create-food">
         <!-- REMOVE FROM PREVIOUS PROJECT -->
-          product name
-          <br>
+          product name:
           <input name="food[name]" placeholder="ex: pineapple" type="text">
           <br>
-          meal or snack?
-          <br>
+          meal/snack:
           <input name="food[altOption]" placeholder="snack" type="text">
           <br>
-          where to purchase
-          <br>
+          where to purchase:
           <input name="food[location]" placeholder="ex: key food, walmart" type="text">
           <br>
-          perishable or nonperishable?
-          <br>
+          perishable/nonperishable:
           <input name="food[veg]" placeholder="perishable" type="text">
           <br>
           <button type="submit"> + new entry</button>
@@ -91,7 +87,7 @@ Grocery store budget app & shopping list :)
       <div class="budget-feedback alert alert-danger text-capitalize">budget feedback</div>
       <!-- budget form -->
       <form id="budget-form" class=" budget-form">
-       <h5 class="text-capitalize">budget amount</h5>
+       <h5 class>budget amount</h5>
        <div class="form-group">
         <input type="number" class="form-control budget-input" id="budget-input">
        </div>
@@ -122,17 +118,19 @@ Grocery store budget app & shopping list :)
      </div>
     </div>
 
+    <!-- my initial section styling had an h5 class with text capitalize:     <h5 class="text-capitalize">product name</h5> -->
+
     <div class="row">
      <div class="col-md-5 my-3">
       <!-- expense feedback -->
       <div class="expense-feedback alert alert-danger text-capitalize">expense feedback</div>
       <!-- expense form -->
       <form id="expense-form" class=" expense-form">
-       <h5 class="text-capitalize">product name</h5>
+<h5>product name</h5>
        <div class="form-group">
         <input type="text" class="form-control expense-input" id="expense-input">
        </div>
-       <h5 class="text-capitalize">product price</h5>
+       <h5>product price</h5>
        <div class="form-group">
         <input type="number" class="form-control expense-input" id="amount-input">
        </div>
@@ -150,20 +148,9 @@ Grocery store budget app & shopping list :)
         <h5 class="list-item">price</h5>
         <h5 class="list-item"></h5>
        </div>
-
-
-
-
-
-
-        <main>
-        <div class="column">
-        <button id="index-foods">see all food entries</button> 
-        <div id="content" class="content"></div>
-        </main>
       </div>
-
-              <h4>update password</h4>
+<br>
+              <h9>update password</h9>
         <form id="change-password">
           <input name="passwords[old]" placeholder="old password" type="password">
           <input name="passwords[new]" placeholder="new password" type="password"><br>
@@ -171,7 +158,7 @@ Grocery store budget app & shopping list :)
         </form>
         <br>
 
-<!-- budget app--> 
+<!-- budget app-->
  <!-- jquery -->
  <script src="./js/jquery-3.3.1.min.js"></script>
  <!-- bootstrap js -->

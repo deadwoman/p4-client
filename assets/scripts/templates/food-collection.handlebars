@@ -5,9 +5,9 @@
   <h2>
     {{food.name}}
   </h2>
-  <h6>meal or snack: {{food.altOption}}</h6>
+  <h6>meal/snack: {{food.altOption}}</h6>
   <h6>where to purchase: {{food.location}}</h6>
-  <h6>perishable or nonperishable: {{food.veg}}</h6>
+  <h6>perishable/nonperishable: {{food.veg}}</h6>
 
   <button class="update-food" type="button" data-id="{{food._id}}" data-toggle="modal"
     data-target="#updateFood-{{food._id}}">update</button>
@@ -30,13 +30,13 @@
             <h6>name:
               <input name="food[name]" placeholder="{{food.name}}" type="text">
             </h6>
-            <h6>alternative option:
+            <h6>meal/snack:
               <input name="food[altOption]" placeholder="{{food.altOption}}" type="text">
             </h6>
             <h6>where to purchase:
               <input name="food[location]" placeholder="{{food.location}}" type="text">
             </h6>
-            <h6>vegetarian/vegan/dairy-free:
+            <h6>perishable/nonperishable:
               <input name="food[veg]" placeholder="{{food.veg}}" type="text">
             </h6>
             <div class="modal-footer">
