@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> //vegetarian alternatives database </title>
+      <title> grocery budget & shopping list </title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -48,28 +48,36 @@ Grocery store budget app & shopping list :)
         <!-- ACTUAL FORMS TO FILL OUT -->
 
       <!--  <h4>BUYING LIST</h4>  --> <div class="column">
-<!--          <form class="create-food" id="create-food"> -->
-      <!--  <form id="create-food"> -->
-        <!-- REMOVE FROM PREVIOUS PROJECT
-          food
+          <form class="create-food" id="create-food"> 
+       <form id="create-food"> 
+        <!-- REMOVE FROM PREVIOUS PROJECT -->
+          product name
           <br>
-          <input name="food[name]" placeholder="ex: burger meat" type="text">
+          <input name="food[name]" placeholder="ex: pineapple" type="text">
           <br>
-          alternative
+          meal or snack?
           <br>
-          <input name="food[altOption]" placeholder="ex: impossible meat" type="text">
+          <input name="food[altOption]" placeholder="snack" type="text">
           <br>
           where to purchase
           <br>
-          <input name="food[location]" placeholder="ex: target, trader joes" type="text">
+          <input name="food[location]" placeholder="ex: key food, walmart" type="text">
           <br>
-          vegetarian/vegan/dairy-free
+          perishable or nonperishable?
           <br>
-          <input name="food[veg]" placeholder="vegan/vegetarian/df" type="text">
+          <input name="food[veg]" placeholder="perishable" type="text">
           <br>
           <button type="submit"> + new entry</button>
+
+          <main>
+            <div class="column">
+            <button id="index-foods"><h8>see all food entries</h8></button>
+            <div id="content" class="content"></div>
+            </main>
         </form>
-      -->
+<hr size=3>
+
+
 
 
  <div class="container-fluid">
@@ -150,7 +158,7 @@ Grocery store budget app & shopping list :)
 
         <main>
         <div class="column">
-    <!--    <button id="index-foods">see all food entries</button> -->
+        <button id="index-foods">see all food entries</button> 
         <div id="content" class="content"></div>
         </main>
       </div>

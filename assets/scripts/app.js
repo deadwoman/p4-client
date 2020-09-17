@@ -2,7 +2,7 @@
 
 // Require:
 const authEvents = require("./auth/events");
-//const foodEvents = require("./foods/events");
+const foodEvents = require("./foods/events");
 
 // Event Listeners:
 $(() => {
