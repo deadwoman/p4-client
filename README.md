@@ -2,7 +2,7 @@
 
 A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 
-![image](https://imgur.com/a/sZmDYqv)
+![image](https://i.imgur.com/c6dSYrR.png)
 
 # Important Links
 
