@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> grocery budget & shopping list </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+       <!-- main css -->
+     <link rel="stylesheet" href="./css/main.css">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+      <h1> <img src="http://cdn.onlinewebfonts.com/svg/img_443347.png" alt="leaf logo" style="height:32px;"> grocery budget & shopping list </h1>
+
+      your personal grocery store budget & shopping list.
+      <br>
+      <h7><i> 🧠 shop smarter 🛍 </i></h7>
+<br>
+      <p id="message"></p>
+
+      <div class="unauthenticated" id="unauthenticated">
+        <h2>new user</h2>
+        <form class="sign-up" id="sign-up">
+          e-mail: <input name="credentials[email]" placeholder="e-mail" type="text"><br><br>
+          password: <input name="credentials[password]" placeholder="password" type="password"><br><br>confirm:
+          <input name="credentials[password_confirmation]" placeholder="retype password" type="password"><br><br>
+          <button type="submit">sign up</button>
+        </form>
+
+        <br>
+
+        <h2>returning user</h2>
+        <form id="sign-in">
+        e-mail: <input name="credentials[email]" placeholder="e-mail" type="text"> <br><br> password:
+        <input name="credentials[password]" placeholder="password" type="password"><br><br>
+        <button type="submit">sign in</button>
+      </form>
+      </div>
+
+      <div class="authenticated" id="authenticated">
+      <!--  <form id="sign-out">
+          <button type="submit">sign out</button>
+        </form> -->
+        <br>
+
+        <!-- ACTUAL FORMS TO FILL OUT -->
+
+      <!--  <h4>BUYING LIST</h4>  --> <div class="column">
+          <form class="create-food" id="create-food">
+            <h9> grocery list</h9><br>
+       <form id="create-food">
+        <!-- REMOVE FROM PREVIOUS PROJECT -->
+          product name:
+          <input name="food[name]" placeholder="pineapple" type="text">
+          <br>
+          <br> 
+          meal/snack:
+          <input name="food[altOption]" placeholder="snack" type="text">
+          <br>
+          <br>
+          where to purchase:
+          <input name="food[location]" placeholder="key food, walmart" type="text">
+          <br><br>
+          [non]perishable:
+          <input name="food[veg]" placeholder="perishable" type="text">
+          <br><br>
+          <button type="submit"> + new entry</button><br>
+
+          <main>
+            <div class="column">
+            <button id="index-foods"><h8>see all food entries</h8></button>
+            <div id="content" class="content"></div>
+            </main>
+        </form>
+<hr size=3>
+
+
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-11 mx-auto pt-3">
+    <!-- title -->
+  <!--  <h3 class="text-uppercase mb-4">Time to Budget!</h3> -->
+    <div class="row">
+     <div class="col-md-5 my-3">
+      <!-- budget feedback -->
+      <div class="budget-feedback alert alert-danger">budget feedback</div>
+      <!-- budget form -->
+      <form id="budget-form" class="budget-form">
+       <h5 class>budget amount</h5>
+       <div class="form-group">
+        <input type="number" class="form-control budget-input" id="budget-input">
+       </div>
+       <!-- submit button -->
+      <!-- original code without classes omitted  <button type="submit" class="btn text-capitalize budget-submit" id="budget-submit">calculate</button> -->
+      <button type="submit">calculate</button>
+      </form>
+     </div>
+     <div class="col-md-7">
+      <!-- app info -->
+      <div class="row my-3">
+       <div class="col-4 text-center mb-2">
+       <!-- <h6 class="text-uppercase info-title">budget</h6> -->
+        <h6>BUDGET</h6>
+        <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
+        <h4 class="text-uppercase mt-2 budget" id="budget"><span>$ </span><span id="budget-amount">0</span></h4>
+       </div>
+       <div class="col-4 text-center">
+        <h6>EXPENSE</h6>
+        <span class="expense-icon"><i class="far fa-credit-card"></i></span>
+        <h4 class="text-uppercase mt-2 expense" id="expense"><span>$ </span><span id="expense-amount">0</span></h4>
+       </div>
+       <div class="col-4 text-center">
+        <h6>BALANCE</h6>
+        <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+        <h4 class="text-uppercase mt-2 balance" id="balance"> <span>$ </span><span id="balance-amount">0</span></h4>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <!-- my initial section styling had an h5 class with text capitalize:     <h5 class="text-capitalize">product name</h5> -->
+
+    <div class="row">
+     <div class="col-md-5 my-3">
+      <!-- expense feedback -->
+      <div class="expense-feedback alert alert-danger">expense feedback</div>
+      <!-- expense form -->
+      <form id="expense-form" class=" expense-form">
+<h5>product name</h5>
+       <div class="form-group">
+        <input type="text" class="form-control expense-input" id="expense-input">
+       </div>
+       <h5>product price</h5>
+       <div class="form-group">
+        <input type="number" class="form-control expense-input" id="amount-input">
+       </div>
+       <!-- submit button -->
+<!-- original code without classes omitted       <button type="submit" class="btn text-capitalize expense-submit" id="expense-submit">+ expense</button> -->
+<button type="submit">+ expense</button>
+      </form>
+     </div>
+     <div class="col-md-7 my-3">
+      <!-- expense list -->
+      <div class="expense-list" id="expense-list">
+
+       <div class="expense-list__info d-flex justify-content-between">
+        <h5 class="list-item">PRODUCT</h5>
+        <h5 class="list-item">PRICE</h5>
+        <h5 class="list-item"></h5>
+       </div>
+      </div>
+      <hr size=3>
+<br><br>
+
+        <form id="change-password">
+        <h9>update password</h9><br>
+          <input name="passwords[old]" placeholder="old password" type="password"><br> <br>
+          <input name="passwords[new]" placeholder="new password" type="password"><br><br>
+          <button type="submit">change password</button>
+        </form>
+
+        <hr size=3>
+
+        <div class="authenticated" id="authenticated">
+          <form id="sign-out">
+            <button type="submit">sign out</button>
+          </form>
+          <br>
+
+<!-- budget app-->
+ <!-- jquery -->
+ <script src="./js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="./js/app.js"></script>
+    </body>
+</html>
