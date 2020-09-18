@@ -62,10 +62,9 @@ Day 1 I finished the planning, and then started working on the API & Client Setu
 
 # Wireframes:
 
-[Wireframe 1](https://imgur.com/a/HiZdrmY)
-
-[Wireframe 2](https://imgur.com/a/dzfyXns)
+![image](https://i.imgur.com/0rwkgZo.jpg)
+![image](https://i.imgur.com/b139wfe.jpg)
 
 # ERD:
 
-[ERD](https://imgur.com/a/zqJBS7h)
+![image](https://i.imgur.com/sr00p8Q.jpg)
