@@ -15,8 +15,11 @@ A web app that helps you with your grocery shopping. The user will be able to ke
 # Planning Story
 
 Day 1: Wrap Up Planning, Begin API & Client Setup
+
 Day 2: Page design/layout, continue working on back-end, start front-end
+
 Day 3: Continue working on the API & front end
+
 Day 4: Final Edits, Read Me, and Deploying
 
 # User Stories
@@ -42,6 +45,7 @@ Day 4: Final Edits, Read Me, and Deploying
 # Wireframes:
 
 [Wireframe 1](https://imgur.com/a/HiZdrmY)
+
 [Wireframe 2](https://imgur.com/a/dzfyXns)
 
 # ERD:

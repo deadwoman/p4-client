@@ -37,21 +37,21 @@ h7 {
   letter-spacing: 5px;
 }
 
-// .update-food {
-//   border-radius: 90px;
-//   font-size: 12px;
-//   border-width: 0px;
-//   text-align: center;
-//   padding: 1px 4px 1px;
-// }
+.update-food {
+  border-radius: 10px;
+  font-size: 12px;
+  border-width: 0px;
+  text-align: center;
+  padding: 1px 4px 1px;
+}
 
-// .destroy-food {
-//   border-radius: 90px;
-//   font-size: 12px;
-//   border-width: 0px;
-//   text-align: center;
-//   padding: 1px 4px 1px;
-// }
+.destroy-food {
+  border-radius: 10px;
+  font-size: 12px;
+  border-width: 0px;
+  text-align: center;
+  padding: 1px 4px 1px;
+}
 
 body {
   font-family: helvetica;
@@ -59,20 +59,21 @@ body {
   //  background-color: #d2b48c;
   text-align: center;
   align-items: center;
-  margin: 2%;
+  margin: 4%;
   letter-spacing: 2px;
   font-size: 14px;
 }
 
 div {
-  padding: 10px;
+    padding-top: 1px;
+//  padding: 10px;
 
   > form {
     padding: 10px;
     //background-color: #ebd8bd;
     background-color: #d4d4d4;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 850px;
   }
 }
 
@@ -88,6 +89,32 @@ h2 {
   letter-spacing: 3px;
   position: sticky;
 }
+
+//balance controls the dollar sign amount for balance
+#balance {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+// controls the dollar sign amount for expense
+
+#expense {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+// controls the dollar sign amount for budget
+#budget {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
 
 // h6 styles the title for BUDGET / EXPENSES / BALANCE
 h6 {
@@ -158,12 +185,12 @@ h6 {
   }
 
   .budget-input {
-    border-width: 1px;
+    border-width: 0px;
     border-color: #000000;
     // border: 0.05rem solid var(--mainGreen) !important;
   }
   .expense-input {
-    border-width: 1px;
+    border-width: 0px;
     border-color: #000000;
     // border: 0.05rem solid var(--mainRed) !important;
   }
@@ -243,7 +270,7 @@ h6 {
   .list-item {
 //    flex: 0 0 33.33%;
     text-align: center;
-    text-decoration: underline;
+//    text-decoration: underline;
   }
   .expense-item {
     height: 2rem;

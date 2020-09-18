@@ -5,7 +5,7 @@ const api = require("./api");
 const ui = require("./ui");
 const getFormFields = require("../../../lib/get-form-fields");
 
-// create -add new food entry
+// create -add new product entry
 const onCreateFood = function (event) {
   event.preventDefault();
 

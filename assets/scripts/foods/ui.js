@@ -9,9 +9,9 @@ const indexFoodsSuccess = (data, hideMessage) => {
   if (!hideMessage) {
     // if no existing foods:
     if (data.foods.length === 0) {
-      $("#message").text("no food entries in your database yet!");
+      $("#message").text("no products in your database yet!");
     } else {
-      $("#message").text("successfully viewing food entries!");
+      $("#message").text("successfully viewing product entries!");
     }
   }
 
@@ -21,20 +21,20 @@ const indexFoodsSuccess = (data, hideMessage) => {
 };
 
 const indexFoodsFailure = () => {
-  $("#message").text("couldnt show all foods. please try again.");
+  $("#message").text("couldnt show all products. please try again.");
 };
 
 const createFoodSuccess = (data) => {
   const showFoodsHtml = showFoodsTemplate({ foods: data.foods });
 
-  $("#message").text("new food entry added to database!");
+  $("#message").text("new product entry added to list!");
   $("#content").append(showFoodsHtml);
 
   $("form").trigger("reset");
 };
 
 const createFoodFailure = () => {
-  $("#message").text("couldnt add new food entry. try again!");
+  $("#message").text("couldnt add new product entry. try again!");
 };
 
 const destroyFoodSuccess = () => {
