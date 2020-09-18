@@ -32,8 +32,13 @@ Day 1 I finished the planning, and then started working on the API & Client Setu
 
 ## Future Iterations
 
-- Clean-up the mobile optimization.
+- Clean-up the mobile optimization. The height of the input boxes need to be resized.
 - I'm considering adding an update and a delete button to the expense list.
+
+![image](https://i.imgur.com/PNZouWB.png)
+![image](https://i.imgur.com/AF4gifS.png)
+![image](https://i.imgur.com/u7atBJT.png)
+![image](https://i.imgur.com/neAD2zj.png)
 
 # User Stories
 
