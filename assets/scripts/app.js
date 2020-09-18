@@ -78,7 +78,7 @@ class UI {
     const amountValue = this.amountInput.value;
     if (expenseValue === "" || amountValue === "" || amountValue < 0) {
       this.expenseFeedback.classList.add("showItem");
-      this.expenseFeedback.innerHTML = `<p>values cannot be empty or negative</p>`;
+      this.expenseFeedback.innerHTML = `<p>price can't be empty or negative</p>`;
       const self = this;
       setTimeout(function () {
         self.expenseFeedback.classList.remove("showItem");
@@ -106,7 +106,7 @@ class UI {
     div.classList.add("expense");
     div.innerHTML = `<div class="expense-item d-flex justify-content-between align-items-baseline">
 
-    <h6 class="expense-title mb-0 text-uppercase list-item">- ${expense.title}</h6>
+    <h6 class="expense-title mb-0 list-item">- ${expense.title}</h6>
     <h5 class="expense-amount mb-0 list-item">$${expense.amount}</h5>
 
     <div class="expense-icons list-item">

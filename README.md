@@ -28,11 +28,12 @@ Day 4: Final Edits, Read Me, and Deploying
 
 ## Planning, Process and Problem-solving
 
-Day 1 I finished the planning, and then started working on the API & Client Setup. I was able to get the basic skeleton done for the front-end design as well. Day 2 I worked on the page design and layout. I finished working on the back-end and finished the front-end. By the end of Day 2 I was finished with the site so I deployed the API and front-end repositories. Day 2 I ran into two issues. One having to do with deployment which stemmed from a small syntax error. I had to remove the / from the end of my Heroku links. The second issue I ran into that remained unresolved by the end of Day 2 was a scrolling issue. When clicking "update" and then clicking "save changes" my page stopped scrolling. In an attemp to troubleshoot the issue on my own, I checked the Console and also compared my code to my previous project that I had a similar issue with.
+Day 1 I finished the planning, and then started working on the API & Client Setup. I was able to get the basic skeleton done for the front-end design as well. Day 2 I worked on the page design and layout. I finished working on the back-end and finished the front-end. By the end of Day 2 I was finished with the site so I deployed the API and front-end repositories. Day 2 I ran into two issues. One having to do with deployment which stemmed from a small syntax error. I had to remove the / from the end of my Heroku links. The second issue I ran into that remained unresolved by the end of Day 2 was a scrolling issue. When clicking "update" and then clicking "save changes" my page stopped scrolling. In an attemp to troubleshoot the issue on my own, I checked the Console and also compared my code to my previous project that I had a similar issue with. After googling and troubleshooting for several hours I figured out the solution with the help of a Stack Overflow user question/answer.
 
 ## Future Iterations
 
-Clean-up the mobile optimization.
+- Clean-up the mobile optimization.
+- I'm considering adding an update and a delete button to the expense list.
 
 # User Stories
 

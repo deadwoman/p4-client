@@ -48,6 +48,9 @@ const destroyFoodFailure = () => {
 const updateFoodSuccess = (foodId) => {
   $("#message").text("food entry updated!");
 
+  $('body').removeClass('modal-open');
+  $('.modal-backdrop').remove();
+
   $(`#updateFood-${foodId}`).modal("hide");
   $(".modal-backdrop").removeClass("show");
   return new Promise((resolve) =>
