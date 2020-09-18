@@ -26,6 +26,14 @@ Day 3: Continue working on the API & front end
 
 Day 4: Final Edits, Read Me, and Deploying
 
+## Planning, Process and Problem-solving
+
+Day 1 I finished the planning, and then started working on the API & Client Setup. I was able to get the basic skeleton done for the front-end design as well. Day 2 I worked on the page design and layout. I finished working on the back-end and finished the front-end. By the end of Day 2 I was finished with the site so I deployed the API and front-end repositories. Day 2 I ran into two issues. One having to do with deployment which stemmed from a small syntax error. I had to remove the / from the end of my Heroku links. The second issue I ran into that remained unresolved by the end of Day 2 was a scrolling issue. When clicking "update" and then clicking "save changes" my page stopped scrolling. In an attemp to troubleshoot the issue on my own, I checked the Console and also compared my code to my previous project that I had a similar issue with.
+
+## Future Iterations
+
+Clean-up the mobile optimization.
+
 # User Stories
 
 - As an unauthorized user I want to be able to sign-in, sign-up, change password, and logout

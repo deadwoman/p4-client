@@ -55,18 +55,20 @@
        <form id="create-food">
         <!-- REMOVE FROM PREVIOUS PROJECT -->
           product name:
-          <input name="food[name]" placeholder="ex: pineapple" type="text">
+          <input name="food[name]" placeholder="pineapple" type="text">
           <br>
+          <br> 
           meal/snack:
           <input name="food[altOption]" placeholder="snack" type="text">
           <br>
-          where to purchase:
-          <input name="food[location]" placeholder="ex: key food, walmart" type="text">
           <br>
-          perishable/nonperishable:
+          where to purchase:
+          <input name="food[location]" placeholder="ey food, walmart" type="text">
+          <br><br>
+          [non]perishable:
           <input name="food[veg]" placeholder="perishable" type="text">
           <br><br>
-          <button type="submit"> + new entry</button>
+          <button type="submit"> + new entry</button><br>
 
           <main>
             <div class="column">
@@ -85,7 +87,7 @@
     <div class="row">
      <div class="col-md-5 my-3">
       <!-- budget feedback -->
-      <div class="budget-feedback alert alert-danger text-capitalize">budget feedback</div>
+      <div class="budget-feedback alert alert-danger">budget feedback</div>
       <!-- budget form -->
       <form id="budget-form" class="budget-form">
        <h5 class>budget amount</h5>
@@ -101,17 +103,18 @@
       <!-- app info -->
       <div class="row my-3">
        <div class="col-4 text-center mb-2">
-        <h6 class="text-uppercase info-title">budget</h6>
+       <!-- <h6 class="text-uppercase info-title">budget</h6> -->
+        <h6>BUDGET</h6>
         <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
         <h4 class="text-uppercase mt-2 budget" id="budget"><span>$ </span><span id="budget-amount">0</span></h4>
        </div>
        <div class="col-4 text-center">
-        <h6 class="text-uppercase info-title">expense</h6>
+        <h6>EXPENSE</h6>
         <span class="expense-icon"><i class="far fa-credit-card"></i></span>
         <h4 class="text-uppercase mt-2 expense" id="expense"><span>$ </span><span id="expense-amount">0</span></h4>
        </div>
        <div class="col-4 text-center">
-        <h6 class="text-uppercase info-title">balance</h6>
+        <h6>BALANCE</h6>
         <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
         <h4 class="text-uppercase mt-2 balance" id="balance"> <span>$ </span><span id="balance-amount">0</span></h4>
        </div>
@@ -124,7 +127,7 @@
     <div class="row">
      <div class="col-md-5 my-3">
       <!-- expense feedback -->
-      <div class="expense-feedback alert alert-danger text-capitalize">expense feedback</div>
+      <div class="expense-feedback alert alert-danger">expense feedback</div>
       <!-- expense form -->
       <form id="expense-form" class=" expense-form">
 <h5>product name</h5>
@@ -150,11 +153,12 @@
         <h5 class="list-item"></h5>
        </div>
       </div>
-<br>
+      <hr size=3>
+<br><br>
 
         <form id="change-password">
         <h9>update password</h9><br>
-          <input name="passwords[old]" placeholder="old password" type="password">
+          <input name="passwords[old]" placeholder="old password" type="password"><br> <br>
           <input name="passwords[new]" placeholder="new password" type="password"><br><br>
           <button type="submit">change password</button>
         </form>

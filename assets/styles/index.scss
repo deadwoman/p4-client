@@ -10,6 +10,13 @@
   justify-content: center;
   background-color: #ffe6ee;
   border-radius: 30px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  border-width: 0px;
+  border-radius: 4px;
 }
 
 button {
@@ -65,8 +72,8 @@ body {
 }
 
 div {
-    padding-top: 1px;
-//  padding: 10px;
+  padding-top: 1px;
+  //  padding: 10px;
 
   > form {
     padding: 10px;
@@ -115,11 +122,11 @@ h2 {
   letter-spacing: 1px;
 }
 
-
 // h6 styles the title for BUDGET / EXPENSES / BALANCE
 h6 {
   font-family: helvetica;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 .authenticated {
@@ -146,6 +153,12 @@ h6 {
   .budget-feedback,
   .expense-feedback {
     display: none;
+    color: #000000;
+    background-color: #ffe6ee;
+    border-radius: 20px;
+    border-width: 0px;
+    letter-spacing: 3px;
+    max-height: 60px;
   }
 
   .budget-form {
@@ -187,11 +200,17 @@ h6 {
   .budget-input {
     border-width: 0px;
     border-color: #000000;
+    height: 22px;
+    width: 100px;
+    margin: 0 auto;
     // border: 0.05rem solid var(--mainGreen) !important;
   }
   .expense-input {
     border-width: 0px;
     border-color: #000000;
+    height: 21px;
+    width: 150px;
+    margin: 0 auto;
     // border: 0.05rem solid var(--mainRed) !important;
   }
   .expense-amount,
@@ -268,9 +287,10 @@ h6 {
     }
   }
   .list-item {
-//    flex: 0 0 33.33%;
+    //    flex: 0 0 33.33%;
     text-align: center;
-//    text-decoration: underline;
+    font-size: 20px;
+    //    text-decoration: underline;
   }
   .expense-item {
     height: 2rem;
@@ -518,10 +538,10 @@ h6 {
     background: var(--mainWhite);
     color: var(--mainDark);
   }
-  .budget-feedback,
-  .expense-feedback {
-    display: none;
-  }
+  // .budget-feedback,
+  // .expense-feedback {
+  //   display: none;
+  // }
 
   // .budget-form {
   //   border: 0.15rem solid var(--mainGreen);
@@ -629,6 +649,9 @@ h6 {
     .balance-icon {
       font-size: 3.5rem;
       color: var(--mainBlue);
+    }
+    .h6 {
+      font-size: 1.6rem;
     }
   }
   // .list-item {

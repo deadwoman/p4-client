@@ -35,7 +35,7 @@ const signInFailure = function () {
 
 // signout:
 const signOutSuccess = function () {
-  $('#message').text('successfully signed out! see you next time!')
+  $('#message').text('successfully signed out. see you next time!')
 
   // Show sign up & sign in only:
   $('#unauthenticated').show()
