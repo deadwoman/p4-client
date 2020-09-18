@@ -4,7 +4,7 @@ A web app that helps you with your grocery shopping. The user will be able to ke
 
 ![image](https://i.imgur.com/ilEDyvk.png)
 
-![image](https://imgur.com/a/kpV2jAz)
+![image](https://i.imgur.com/O5mSxHI.png)
 
 # Important Links
 
