@@ -1,10 +1,10 @@
-# Grocery Budget & Shopping List
-
-A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
-
 ![image](https://i.imgur.com/ilEDyvk.png)
 
 ![image](https://i.imgur.com/O5mSxHI.png)
+
+# Grocery Budget & Shopping List
+
+A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 
 # Important Links
 
@@ -26,7 +26,28 @@ Day 3: Continue working on the API & front end
 
 Day 4: Final Edits, Read Me, and Deploying
 
-## Planning, Process and Problem-solving
+# Wireframes:
+
+![image](https://i.imgur.com/0rwkgZo.jpg)
+![image](https://i.imgur.com/b139wfe.jpg)
+
+# ERD:
+
+![image](https://i.imgur.com/sr00p8Q.jpg)
+
+# Setup & Installation:
+
+1. Download this template.
+2. Unzip and rename the template directory (unzip ~/Downloads/react-auth-template-master.zip).
+3. Move into the new project and git init.
+4. Empty README.md and fill with your own content.
+5. Replace react-auth-template in package.json with your projects name.
+6. Replace the "homepage" field in package.json with your (public) Github account name and repository name.
+7. Install dependencies with npm install.
+   git add and git commit your changes.
+8. Run the development server with npm start.
+
+## Planning, Process and Problem-Solving
 
 Day 1 I finished the planning, and then started working on the API & Client Setup. I was able to get the basic skeleton done for the front-end design as well. Day 2 I worked on the page design and layout. I finished working on the back-end and finished the front-end. By the end of Day 2 I was finished with the site so I deployed the API and front-end repositories. Day 2 I ran into two issues. One having to do with deployment which stemmed from a small syntax error. I had to remove the / from the end of my Heroku links. The second issue I ran into that remained unresolved by the end of Day 2 was a scrolling issue. When clicking "update" and then clicking "save changes" my page stopped scrolling. In an attemp to troubleshoot the issue on my own, I checked the Console and also compared my code to my previous project that I had a similar issue with. After googling and troubleshooting for several hours I figured out the solution with the help of a Stack Overflow user question/answer.
 
@@ -59,12 +80,3 @@ Day 1 I finished the planning, and then started working on the API & Client Setu
 - Javascript
 - Handlebars
 - Ajax
-
-# Wireframes:
-
-![image](https://i.imgur.com/0rwkgZo.jpg)
-![image](https://i.imgur.com/b139wfe.jpg)
-
-# ERD:
-
-![image](https://i.imgur.com/sr00p8Q.jpg)
