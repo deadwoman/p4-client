@@ -1,10 +1,9 @@
 # Grocery Budget & Shopping List
 
+A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 ![image](https://i.imgur.com/92nfIoF.png)
 
 ![image](https://i.imgur.com/O5mSxHI.png)
-
-A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 
 # Important Links
 
@@ -38,7 +37,7 @@ Day 4: Final Edits, Read Me, and Deploying
 # Setup & Installation:
 
 1. Download this template.
-2. Unzip and rename the template directory (unzip ~/Downloads/react-auth-template-master.zip).
+2. Unzip and rename the template directory (unzip ~/Downloads/p4-client-master.zip).
 3. Move into the new project and git init.
 4. Empty README.md and fill with your own content.
 5. Replace react-auth-template in package.json with your projects name.
