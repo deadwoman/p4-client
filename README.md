@@ -1,8 +1,8 @@
-![image](https://i.imgur.com/ilEDyvk.png)
+# Grocery Budget & Shopping List
+
+![image](https://i.imgur.com/92nfIoF.png)
 
 ![image](https://i.imgur.com/O5mSxHI.png)
-
-# Grocery Budget & Shopping List
 
 A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 
