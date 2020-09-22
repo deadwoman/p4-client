@@ -1,6 +1,6 @@
 # Grocery Budget & Shopping List
 
-A web app that helps you with your grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
+A web app that helps with grocery shopping. The user will be able to keep track of their budget and expenses, as well as what they need to buy.
 ![image](https://i.imgur.com/92nfIoF.png)
 
 ![image](https://i.imgur.com/O5mSxHI.png)
@@ -27,12 +27,12 @@ Day 4: Final Edits, Read Me, and Deploying
 
 # Wireframes:
 
-![image](https://i.imgur.com/0rwkgZo.jpg)
-![image](https://i.imgur.com/b139wfe.jpg)
+![image](https://i.imgur.com/iwqx6Eb.jpg)
+![image](https://i.imgur.com/g5aS3zQ.jpg)
 
 # ERD:
 
-![image](https://i.imgur.com/sr00p8Q.jpg)
+![image](https://i.imgur.com/wCtTcxE.jpg)
 
 # Setup & Installation:
 
